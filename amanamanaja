@@ -145,14 +145,14 @@
 
     <script>
         const firebaseConfig = {
-            apiKey: "AIzaSyAwtJYQPYCXGaHNhSxc0v_kv1GS8MNAGXI",
-            authDomain: "kuis-b4cb8.firebaseapp.com",
-            projectId: "kuis-b4cb8",
-            storageBucket: "kuis-b4cb8.firebasestorage.app",
-            messagingSenderId: "842499241086",
-            appId: "1:842499241086:web:53f914ca316ad77119142f",
-            measurementId: "G-8Q2MGB2KXW"
-        };
+              apiKey: "AIzaSyBOKNU_0Z7TXTxCPq5q9zewQpqTJjtkZBE",
+  authDomain: "cape-aku-cok.firebaseapp.com",
+  projectId: "cape-aku-cok",
+  storageBucket: "cape-aku-cok.firebasestorage.app",
+  messagingSenderId: "298905316775",
+  appId: "1:298905316775:web:98d9ed52394624515b1a82",
+  measurementId: "G-VLLCS950VS"
+};
 
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
