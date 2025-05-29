@@ -1,21 +1,37 @@
-<title>anjaydong</title>
-<label>jawa cok</label><p>
-  <h1>dia cantiq bgt njir</h1>
-<label>isi aja</label>
-<input type="radio" name="apaaja" value="apya"><br>
-<label>sawang si nawang</label>
-<input type="radio" name="kontol" value="anjingg"><br>
-<label>ahahaha</label>
-<input type="radio" name="asu ini" value="istigfar bg"><br>
-<label>jawajawajawa</label>
-<input type="radio" name=lagu value="separuh aku Ariel"><br>
-<label>anjing kau ya bujanginam</label>
-<input type="range" width:100% min="0" max="40">
-<button onclick="window.location.href='https://github.com/ArjunKhan-id/Jawa-jawa'">
-  
-  
-  
-'">
-  Buka Repo Temen
-</button>'
-</button>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jam Realtime</title>
+  <style>
+    #jam {
+      font-size: 48px;
+      font-family: 'Courier New', monospace;
+      color: #00aa00;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Jam Sekarang:</h2>
+<div id="jam"></div>
+
+<script>
+  function updateJam() {
+    const now = new Date();
+    const jam = String(now.getHours()).padStart(2, '0');
+    const menit = String(now.getMinutes()).padStart(2, '0');
+    const detik = String(now.getSeconds()).padStart(2, '0');
+
+    document.getElementById("jam").textContent = `${jam}:${menit}:${detik}`;
+  }
+
+  // Update setiap 1 detik
+  setInterval(updateJam, 1000);
+
+  // Panggil sekali waktu awal halaman dibuka
+  updateJam();
+<button onclick window.location.href="jawaJawaa">
+</script>
+
+</body>
+</html>
